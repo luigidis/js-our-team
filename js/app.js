@@ -32,4 +32,12 @@ const team = [
         img: 'barbara-ramos-graphic-designer.jpg',
     },
 ]
+console.log(team.length);
+
+for (let i = 0; i < team.length; i++) {
+    const nome = team[i].nome;
+    const role = team[i].role;
+    const img = team[i].img;
+    console.log(`Nome: ${nome}\n` + `Role: ${role}\n` + `url: ${img}`);
+}
 
