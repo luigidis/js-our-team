@@ -3,3 +3,70 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: antiquewhite;
+}
+
+ul,
+li,
+menu {
+    list-style-type: none;
+}
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.title {
+    padding: 50px 0;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.title p {
+    padding-top: 20px
+}
+
+.text_center {
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background-color: rgb(255, 255, 255); */
+    column-gap: 10px;
+    row-gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    flex-basis: calc((100% / 3) - 20px);
+}
+
+.py_1 {
+    padding: 10px;
+}
+
+.pb_1 {
+    padding-bottom: 10px;
+}
+
+.text_bold {
+    font-weight: bold;
+}
+    
+    
+    
+    
+    
+
+    

@@ -42,6 +42,18 @@ for (let i = 0; i < team.length; i++) {
     const role = team[i].role;
     const img = team[i].img;
     console.log(`Nome: ${nome}\n` + `Role: ${role}\n` + `url: ${img}`);
-    ulEl.innerHTML += `<li>Nome: ${nome},\n` + `Role: ${role},\n` + `<img src="${img}" alt="Foto ${nome}"></img></li>`;
+    // ulEl.innerHTML += `<li class="card">Nome: ${nome},\n` + `Role: ${role},\n` + `<img src="${img}" alt="Foto ${nome}"></li>`;
+                            
+    ulEl.innerHTML += `<li class="card">
+                            <figure class="img">
+                                <img src="${img}" alt="Foto ${nome}">
+                            </figure>
+                            <div class="nome text_center py_1 text_bold">
+                                ${nome}
+                            </div>
+                            <div class="role text_center pb_1">
+                                ${role}
+                            </div>
+                        </li>`
 }
 
